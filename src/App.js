@@ -1,4 +1,4 @@
-import React,{ useState,useEffect } from "react";
+import React,{ useState} from "react";
 import Header from "./components/Header";
 import TaskList from "./components/TaskList";
 import AddTask from "./components/AddTask"
@@ -33,7 +33,7 @@ function App() {
 	
 	const toggleReminder = async (id) =>{
 		
-		const task = tasks.find((task)=>task.id===id)
+// 		const task = tasks.find((task)=>task.id===id)
 
 		// await fetch(`http://localhost:5000/tasks/${id}`, {
 		// 	method: "PUT",
