@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { useState, useRef, useEffect } from "react";
+=======
+import React,{ useState} from "react";
+>>>>>>> b0decde45f5d0915725b9725b30ccf617d90faa9
 import Header from "./components/Header";
 import TaskList from "./components/TaskList";
 import AddTask from "./components/AddTask"
@@ -32,6 +36,14 @@ function App() {
 		}
 		return hash;
 	};
+<<<<<<< HEAD
+=======
+	
+	
+	const toggleReminder = async (id) =>{
+		
+// 		const task = tasks.find((task)=>task.id===id)
+>>>>>>> b0decde45f5d0915725b9725b30ccf617d90faa9
 
 
 	const toggleReminder = async (id) => {
@@ -116,6 +128,13 @@ function App() {
 		</>
 	);
 }
+<<<<<<< HEAD
 
 
 export default App;
+=======
+	
+	
+	export default App;
+	
+>>>>>>> b0decde45f5d0915725b9725b30ccf617d90faa9
